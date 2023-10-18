@@ -1,0 +1,48 @@
+.box {
+  width: 25rem;
+  margin: 2rem 6rem;
+  position: relative;
+  overflow: hidden;
+  border: var(--border);
+  text-align: center;
+}
+.box:hover {
+  border: var(--border-hover);
+}
+.box .image {
+  padding: 1rem;
+  background: linear-gradient(15deg, #eee 30%, #fff 30.1%);
+}
+
+.box .image img {
+  height: 25rem;
+}
+
+.box .content {
+  background: #eee;
+  padding: 1.5rem;
+}
+
+.box .content h3 {
+  font-size: 2rem;
+  color: var(--blac);
+}
+
+.box .content .price {
+  font-size: 2rem;
+  color: var(--blac);
+  margin-bottom: 0.8rem;
+}
+
+.box .content .btn {
+  font-size: 1.6rem;
+  padding: 1rem;
+  color: #fff;
+  background-color: var(--green);
+  cursor: pointer;
+  align-items: center;
+  appearance: none;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+}

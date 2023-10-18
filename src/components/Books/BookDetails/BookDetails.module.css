@@ -1,0 +1,80 @@
+.card {
+  padding: 1rem;
+  border-radius: 14px;
+  background-color: white;
+  width: 25rem;
+  margin: 2rem 6rem;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card .image img {
+  height: 25rem;
+}
+
+.card .content {
+  background: #fff;
+  padding: 1.5rem 0;
+  margin: 1rem;
+}
+
+.card .content h3 {
+  font-size: 2rem;
+  color: var(--blac);
+  padding: 1rem;
+}
+
+.card .content h4 {
+  font-size: 1.8rem;
+  color: var(--blac);
+  padding:0.5rem ;
+
+}
+.card .content span {
+  font-size: 2rem;
+  color: var(--blac);
+
+}
+
+.card .content p {
+  font-size: 1.4rem;
+  color: var(--blac);
+}
+
+.card .form button {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  margin: 1px;
+  color: #fff;
+  background-color: var(--green);
+  cursor: pointer;
+  align-items: center;
+  appearance: none;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(97, 96, 96, 0.12) 0 1px 18px 0;
+}
+.card .action {
+  margin: 1rem;
+}
+
+.form input {
+  border: var(--border);
+  margin-right: 2px;
+  margin-bottom: 2px;
+}
+
+.card .action button {
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+  margin: 5px;
+  color: #fff;
+  background-color: var(--green);
+  cursor: pointer;
+  align-items: center;
+  appearance: none;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+}

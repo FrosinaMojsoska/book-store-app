@@ -1,0 +1,9 @@
+.book-added p{
+    font-size: 1.5rem;
+    color: var(--blac);
+    padding: 0 2rem;
+}
+.book-added p span{
+    color:var(--green);
+    font-weight: bold;
+}

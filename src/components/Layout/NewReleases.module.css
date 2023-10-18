@@ -1,0 +1,69 @@
+section {
+    padding: 5rem 9%;
+  }
+  
+  .home {
+    background: url(../../assets/banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .home .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  
+  .home .row .content {
+    flex: 1 1 43rem;
+  }
+  
+  .home .row .book-slider {
+    flex: 1 1 35rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .home .row .book-slider a img {
+    height: 50rem;
+    padding-left: 15px;
+  }
+  .home .row .book-slider a:hover img {
+    transform: scale(0.9);
+  }
+  
+  .home .row .content h2 {
+    color:#D4AF37;
+    font-size: 4.5rem;
+  }
+  
+  .home .row .content p {
+    color:rgb(59, 58, 58);
+    font-size: 1.7rem;
+    line-height: 2;
+    padding: 1rem 0;
+  }
+  
+  
+  
+  .home .row .content button {
+    margin-left: 35%;
+    margin-top: 1rem;
+    font-size: 2rem;
+    padding: 1rem;
+    color: var(--green);
+    cursor: pointer;
+    align-items: center;
+    appearance: none;
+    font-weight: bold;;
+    background-color: rgba(234, 248, 245, 0.747);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+      rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  }
+  .home .row .content button:hover {
+
+    background-color: rgba(162, 175, 174, 0.966);
+  }
+   

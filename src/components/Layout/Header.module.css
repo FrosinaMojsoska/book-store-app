@@ -1,0 +1,40 @@
+.header .header-1 {
+    background: #fff;
+    padding: 1.5rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header .header-1 .logo {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: var(--green);
+  }
+  
+  .header .header-1 .icons button {
+    font-size: 2.1rem;
+    margin-left: 1rem;
+    padding: 1rem;
+    color: var(--black);
+    cursor: pointer;
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+      rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  }
+  
+  .header .header-1 .icons button span {
+    padding: 5px;
+    text-align: center;
+    font-size: 2.3rem;
+    
+  }
+  
+  .header .header-1 .icons button:hover {
+    color: var(--green);
+    fill: var(--green);
+  }
+  
